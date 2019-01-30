@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>NAV BAR SCRILL</title>
+    <style type="text/css">
+        html, body {
+            margin: 0;
+            padding: 0;
+            background: #ebebeb;
+        }
+        .splash {
+            display: none;
+        }
+
+        [ng-cloak].splash {
+            /* The image used */
+            background-image: url("../img/IMG_1289.JPG");
+
+            /* Full height */
+            height: 100vh; 
+
+            /* Center and scale the image nicely */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: block !important;
+        }
+    </style>
+    <script data-require="angular.js@1.2.x" src="http://code.angularjs.org/1.2.9/angular.js" data-semver="1.2.9"></script>
+</head>
+<body>
+        <div class="splash" ng-cloak=""></div>
+</body>
+</html>
